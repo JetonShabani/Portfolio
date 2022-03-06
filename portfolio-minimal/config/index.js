@@ -7,7 +7,7 @@ module.exports = {
     "A modern one-page portfolio with a clean yet expressive design.",
   siteUrl: "https://gatsby-starter-portfolio-minimal.netlify.app/",
   siteLanguage: "en_US",
-  siteIcon: "content/favicon.png", // Relative to gatsby-config file
+  siteIcon: "config/download.png", // Relative to gatsby-config file
   seoTitleSuffix: "Jeton Portfolio", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
   useCookieBar: false, // If you use Google Analytics and want to be GDPR-compliant, set it to true
   googleAnalyticsTrackingId: "", // e.g. UA-XXXXXX-X
@@ -15,12 +15,12 @@ module.exports = {
   // -- THEME SETTINGS -----
   colors: {
     lightTheme: {
-      primary: "#000000",
-      secondary: "#FFFF00",
+      primary: "#1E90FF",
+      secondary: "	#FFFF00",
       tertiary: "#FFFF00",
-      text: "#000000",
+      text: "	#696969",
       subtext: "#555555",
-      background: "#FFFFFF",
+      background: "	#FFFFFF",
       card: "#FFFFFF",
       scrollBar: "rgba(0, 0, 0, 0.5)",
       boxShadow: "rgba(0, 0, 0, 0.16)",
@@ -55,7 +55,12 @@ module.exports = {
   //-- SOCIAL MEDIA SETTINGS -----
   // There are icons available for the following platforms:
   // Medium, GitHub, LinkedIn, XING, Behance, E-Mail
+  //import the cv from canva..
   socialMedia: [
+    {
+      name: "CV",
+      url: "cd",
+    },
     {
       name: "Linkedin",
       url: "https://www.linkedin.com/in/jeton-shabani-79a392204/",
