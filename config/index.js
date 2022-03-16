@@ -96,12 +96,12 @@ module.exports = {
   },
   footerLinks: [
     {
-      // name: "Privacy",
-      // url: "/privacy",
+       name: "Privacy",
+       url: "/privacy",
     },
     {
-      // name: "Imprint",
-      // url: "/imprint",
+       name: "Imprint",
+       url: "/imprint",
     },
   ],
 }
