@@ -27,14 +27,14 @@ module.exports = {
       boxShadowHover: "rgba(0, 0, 0, 0.32)",
     },
     darkTheme: {
-      primary: "#FAFAFA",
-      secondary: "#2A2926",
-      tertiary: "#252525",
-      text: "rgba(255, 255, 255, 0.87)",
-      subtext: "#AAAAAA",
-      background: "#121212",
-      card: "#1C1C1C",
-      scrollBar: "rgba(255, 255, 255, 0.5)",
+      primary: "#1E90FF",
+      secondary: "	#FFFF00",
+      tertiary: "#FFFF00",
+      text: "	#696969",
+      subtext: "#555555",
+      background: "	#FFFFFF",
+      card: "#FFFFFF",
+      scrollBar: "rgba(0, 0, 0, 0.5)",
       boxShadow: "rgba(0, 0, 0, 0.16)",
       boxShadowHover: "rgba(0, 0, 0, 0.32)",
     },
@@ -58,10 +58,6 @@ module.exports = {
   //import the cv from canva..
   socialMedia: [
     {
-      name: "CV",
-      url: "cd",
-    },
-    {
       name: "Linkedin",
       url: "https://www.linkedin.com/in/jeton-shabani-79a392204/",
     },
@@ -70,7 +66,7 @@ module.exports = {
       url: "https://github.com/JetonShabani",
     },
     {
-      name: "Mail",
+      name: "Mail Me",
       url: "mailto:tonidide9@gmail.com",
     },
   ],
@@ -96,12 +92,12 @@ module.exports = {
   },
   footerLinks: [
     {
-       name: "Privacy",
-       url: "/privacy",
+      name: "Privacy",
+      url: "/privacy",
     },
     {
-       name: "Imprint",
-       url: "/imprint",
+      name: "Imprint",
+      url: "/imprint",
     },
   ],
 }
